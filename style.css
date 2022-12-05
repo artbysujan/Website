@@ -1,0 +1,471 @@
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top:40px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.nav{
+	background-color: #5800FF;
+	align-items: center;	
+	display: flex;
+	position: fixed;
+	justify-content:center;
+	width: 100%;
+	z-index: 1;
+}
+	
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 4px 50px;
+}
+
+.nav img{
+height:50px;
+	border-radius: 50px;
+	background-color: #1158C1;
+	margin-top: 2%;
+	border: solid 1px white;
+}
+
+.nav ul li a{
+text-decoration: none;
+	color: white;
+	font-size:large;
+	font-weight:bold;
+}
+
+nav ul li a:hover{
+border-bottom: 3px white solid;
+}
+
+body{
+background-color: #FFFFFF;
+}
+
+.select{
+border-bottom: 3px white solid;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+.main1{
+	background-image: url("./Images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	width: 100%;
+	padding: 1%;
+	margin-bottom: 0.5%;
+	border-bottom-left-radius: 350px;
+	border-bottom-right-radius: 350px;
+	border-bortton-left:10px solid green;
+	box-shadow: 0 3px #fff;
+	text-align: center;
+}
+
+
+.main1{
+	padding: 2%;
+	background-color:#00D7FF;
+}
+
+.main1 h1{
+color: #FFCA00;
+font-size: 80px;
+	padding: 2px;
+	margin: 2px;
+	font-weight: bolder;
+	-webkit-text-stroke: 3px #FFCA00;
+	text-shadow: 3px 3px 2px black;
+}
+
+.main1 h2{
+color: white;
+font-size: 80px;
+	padding: 2px;
+	margin: 2px;
+	font-weight: bolder;
+	-webkit-text-stroke: 3px white;
+	text-shadow: 3px 3px 2px black;
+	
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.text_first{
+margin: 5px;
+padding: 0.1% 15%;
+font-size: larger;
+}
+
+.box_image{
+	margin: 3%;
+padding: 0.1% 15%;
+}
+
+
+.image_demo{
+	height: 38vh;
+	width: auto;
+	padding: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	}
+	
+.demotext{
+font-size: larger;
+padding: 1%;
+text-align: center;
+margin-bottom:0.5%;
+}
+
+.headingli{
+	font-size: larger;
+	font-weight:  bold;
+}
+
+.parali{
+font-size: large;
+}
+
+
+.slidebox{
+	padding: 0.1% 16%;
+}
+
+.slideimage{
+	height: 50vh;
+}
+
+video{
+	padding: 0.1% 15%;
+}
+
+.tabled{
+	font-size: 10px;
+}
+
+.circleback{
+	
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	margin-left: 25%;
+}
+ 
+
+
+.dita{
+height: 29vh;
+width: 97%;
+border-radius: 50px;
+margin: 10px;
+background-repeat: none;
+background-size: cover;
+display: inline-block;
+padding-left: 15%;
+font-size: 25px;
+font-weight: bold;
+}
+
+.title{
+	color: #5800FF;
+	text-align: center;
+	margin: 1%	;
+}
+.title1{
+	color: white;
+	text-align: center;
+	margin: 1.5%	;
+}
+
+.main2{
+	background-color:#FFFFFF;
+}
+/* this is the webgrafia */
+
+footer{
+	background-color: #5800FF;
+	padding: 3%;
+	margin-top:40px;
+	text-align: center;
+	color:white;
+	height: 91.2vh;
+}
+
+.outerbox{
+	
+	padding: 10px;
+	text-align: center;
+	border-radius: 50px;
+}
+.namebox{
+height: 30vh;
+background-color: #1158C1;
+border:2px solid black;
+}
+.Text_circle{
+padding: 5px;
+border: 2px solid black;
+	height: fit-content;
+	width: auto;
+	border-radius:30px;
+	background-color:#c7c4c4aa;
+}
+
+.salazar{
+	height: 200px;
+}
+.text1{
+font-size: larger;
+font-weight: bolder;
+}
+.text2{
+	font-weight: bold;
+}
+.ditador{
+	height: 30vh;
+	width: 30vh;
+	margin: 2%;
+}
+
+.circle{
+	height: 80%;
+	width: 80%;
+	background-image:url(./antonio-de-oliveira-salazar-l.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin:5px;
+}
+
+.info{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.salazarbox{
+	align-items: center;
+	text-align: center;
+	margin:2px;
+	padding: 2px;
+}
+
+.infosalazar{
+
+text-align: center;
+align-items: center;
+margin: 18px;
+}
+
+.mainblack{
+	height: 100%;
+	width: 100%;
+	background-image: url(./PortugueseColonialEmpire02.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	color: rgb(3, 3, 3);
+	padding: 1%;
+	margin: 2%;
+}
+.text{
+	padding: 20px;
+	display: inline-block;
+	margin: 0px 10%;
+	text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+	font-weight: bold;
+}
+.antonio {
+	height:190px;
+	margin: 0px 4%;
+	border-radius: 50px;
+}
+.title25{
+	text-align: center;
+	color: #5800FF;
+	margin: 5px;
+	padding: 5px;
+}
+
+.flower{
+margin: 2px;
+display: flex;
+
+}
+.colonia{
+	height: 100%;
+	width: auto;
+	text-align: center;
+	margin:1%;
+}
+.colonia table{
+	text-align: center;
+	align-items: center;
+	margin: 2px 24%;
+	
+}
+.colonia th,td{
+	border-radius: 5px;
+	text-align: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.colonia th,td{
+	background-color:#5800FF;
+	color: white;
+}
+video{
+	display: flex;
+	display: inline-block;
+}
+.list{
+	text-align: center;
+
+    text-shadow: 0.5px 0.5px 0.5px rgb(255 255 255);
+    font-weight: bold;
+	margin:5px;
+}
+.main3{
+	background-color: #5800FF;
+	width: 100%;
+	height: 100vh;
+}
+th,td{
+    border: 1.8px solid rgba(1, 153, 255, 0.918);
+    background-color: aliceblue;
+}
+.table_1 th{
+	padding: 1px 18px; 
+    margin: 5px;
+    font: bold;
+    font-size: larger;
+    color: #5800FF;	
+}
+.table_1 td{
+	padding: 10px 18px;
+    margin: 5px;
+}
+.table_1 a , li ,td{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.table_1, th ,td{
+    border-radius: 20px;
+    text-align: center;}
+.table_1 td:first-of-type{
+	color: #5800FF;
+	font-weight: bold;
+}
+
+.table_1 td img{
+    margin: 0px 5px;
+
+    height: 20px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+.Sobre{
+	margin-top: 20px;
+	height: 100vh;
+	background-color: #1158C1;
+
+}
+.rajendra, .rafa{
+height: 61vh;
+width: 61vh;
+	background-color:#FFCA00;
+	margin: 2%;
+	display: flex;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+
+.imgr{
+	margin: 10px;
+}
+.imag_b{
+	height: 20vh;
+	width: 20vh;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 10px 35%;
+	border-radius: 50%;
+}
+
+.main_1{
+	background-image: url("./Images/rafa.png");
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+
+}
+
+.main_2{
+ background-image: url("./Images/rajendra.png");
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.main_1, .main_2{
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	align-items: center;
+}
+.pname, .number{
+	margin: 5px;
+text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.number h3{
+	height: 5vh;
+	width: 100%;
+	background-color: #5800FF;
+	border-radius: 2px;
+}
+
+
+.main3{
+	margin-top: 40px;
+}
+
+#circ1{
+	background-image: url("Images/Salgueiro-Maia.jpg");
+	background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+
+#circ2{
+	background-image: url("Images/vasco.jpeg");
+	background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+#circ3{
+	background-image: url("Images/lourenço.jpg");
+	background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+#circ4{
+	background-image: url("Images/saraiva.jpg");
+	background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+}
